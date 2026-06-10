@@ -54,7 +54,7 @@ This is **Deterministic Finite Automata**, or **DFA**, as the transition for any
 
 For any **FA**, we define a tuple **M** : `M = (Q, W, d, q0, F)`, where:
 - Q is the set of all states;
-- W is the alphabet the DFA uses;
+- W is the alphabet the FA uses;
 - d is the transition function;
 - q0 is the start state;
 - and F is the set of final states.
