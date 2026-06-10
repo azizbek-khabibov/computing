@@ -31,3 +31,16 @@ Ex: `A = {a, b}, B = {b, c}, C = {ab, ac, bb, bc}`
 `A ○ B = {ab, ac, bb, bc}, B ○ A = {ba, bb, ca, cb}`
 
 P.S. It is not about the order strings appear in the set, but the order they are combined, i.e. `ac` is different from `ca`.
+
+.
+
+`A*` gives the set of all possible combinations of the strings in `A`, which is infinite:
+
+Ex: `A = {a, b}, A* = {ꜫ, a, b, aa, ab, bba, bbab, ...}`
+
+P.S. Note that `A*` includes `ꜫ`, which represents empty string.
+
+.
+
+
+
