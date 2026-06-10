@@ -61,3 +61,18 @@ For any **FA**, we define a tuple **M** : `M = (Q, W, d, q0, F)`, where:
 
 A language is called **Regular language** if it is recognized by some FA.
 
+.
+
+### NFA
+
+Besides DFA, we have **NFA**. Unlike DFA, there are multiple possible paths for the given input and state. But, a string is accepted **if at least one path that ends in final state**. Also, there is **empty string transition** (e for empty string), which enables the NFA to transit without consuming input.
+
+Ex: construct and NFA that accepts a string of {1, 0} which has 1 in the 3rd last character.
+
+`q1: 1,0 > q1, 1 > q2
+q2: 1,0 > q3
+q3: 1,0 > q4`
+
+The DFA for that same problem would be much larger and complex. NFA enbales us to think in terms of success path while ignoring errors.
+
+But, that is a tradeoff. Because NFA is indetermisnistic, we have to track a set of all possible states at each step. But, if we try to unroll it to DFA, it may explode, i.e. too many possible paths should be defined.
