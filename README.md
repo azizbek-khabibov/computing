@@ -2,7 +2,7 @@
 
 ## Language and strings.
 
-A `language` is set of strings. Such as : `{hi, hello, 123, *&%^%&}`
+A *language* is set of strings. Such as : `{hi, hello, 123, *&%^%&}`
 
 `hi` is in the language for the example above, and `bye` is not.
 
