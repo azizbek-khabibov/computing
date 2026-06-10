@@ -42,5 +42,13 @@ P.S. Note that `A*` includes `ꜫ`, which represents empty string.
 
 .
 
+## Automata
 
+Autoama is pluar of Automaton, which is essentially a machine that consists of multiple states and transits from one state to other depending on the input provided.
+
+Ex: input = aab, FA = {(A => a -> B , _ -> A), (B => a -> B, b -> End, _ -> A), (End => a -> B, _ -> A)}
+
+The above example is an Automaton which checks if a string ends with `ab`. The condition is True only if **FA** ends in `End` state. Note that for the definition above of `End`, if there is any input left, it exits the final state and jumps to A or B depending on the input.
+
+This is **Deterministic Finite Automata**, or **DFA**, as the transition for any input for the current state is deterministic. 
 
