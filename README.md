@@ -14,6 +14,20 @@ Ex: A = {a, b}, B = {b, c}, C = {a, b, c}
 
 .
 
-Intersection of languages gives a new language that contains all strings that are present both in A and B: C = A ∩ B. 
+Intersection of two languages gives a new language that contains all strings that are present both in A and B: C = A ∩ B. 
 
 Ex: A = {a, b}, B = {b, c}, C = {b}
+
+.
+
+Concatenation of two languages gives a new language that contains combination of all strings in A and B: C = A ○ B.
+
+Ex: A = {a, b}, B = {b, c}, C = {ab, ac, bb, bc}
+
+.
+
+A ○ B is different from B ○ A:
+
+A ○ B = {ab, ac, bb, bc}, B ○ A = {ba, bb, ca, cb}. 
+
+P.S. It is not about the order strings appear in the set, but the order they are combined, i.e. `ac` is different from `ca`.
