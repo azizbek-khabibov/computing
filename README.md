@@ -70,7 +70,9 @@ Besides DFA, we have **NFA**. Unlike DFA, there are multiple possible paths for 
 Ex: construct and NFA that accepts a string of {1, 0} which has 1 in the 3rd last character.
 
 `q1: 1,0 > q1, 1 > q2
+
 q2: 1,0 > q3
+
 q3: 1,0 > q4`
 
 The DFA for that same problem would be much larger and complex. NFA enbales us to think in terms of success path while ignoring errors.
