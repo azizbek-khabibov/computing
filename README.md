@@ -78,3 +78,5 @@ Ex: construct and NFA that accepts a string of {1, 0} which has 1 in the 3rd las
 The DFA for that same problem would be much larger and complex. NFA enbales us to think in terms of success path while ignoring errors.
 
 But, that is a tradeoff. Because NFA is indetermisnistic, we have to track a set of all possible states at each step. But, if we try to unroll it to DFA, it may explode, i.e. too many possible paths should be defined.
+
+"A language is called **Regular language** if it is recognized by some FA." This applies to NFA as well.
