@@ -52,3 +52,12 @@ The above example is an Automaton which checks if a string ends with `ab`. The c
 
 This is **Deterministic Finite Automata**, or **DFA**, as the transition for any input for the current state is deterministic. 
 
+For any **FA**, we define a tuple **M** : M = (Q, W, d, q0, F), where:
+- Q is the set of all states;
+- W is the alphabet the DFA uses;
+- d is the transition function;
+- q0 is the start state;
+- and F is the set of final states.
+
+A language is called **Regular language** if it is recognized by some FA.
+
